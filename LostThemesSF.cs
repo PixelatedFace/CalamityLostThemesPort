@@ -11,12 +11,21 @@ namespace CalamityLostThemesPort
 	{
 		public override SceneEffectPriority Priority => CalamityLostThemesConfig.Instance.planetoidPriorirty;
         public override bool IsSceneEffectActive(Player player){
-
-            return (Main.LocalPlayer.position.Y / 16 <= Main.worldSurface * 0.35) &&
-            (Main.SceneMetrics.GetTileCount(TileID.Dirt)>20 || 
-            Main.SceneMetrics.GetTileCount(TileID.Stone)>20 ||
-             Main.SceneMetrics.GetTileCount(TileID.Mud)>20) && 
-             (Main.SceneMetrics.GetTileCount(TileID.Cloud)<2);
+		if (Main.LocalPlayer.ZoneNormalSpace()){//Main.LocalPlayer.position.Y / 16 <= Main.worldSurface * 0.35){
+			if( (Main.SceneMetrics.GetTileCount(TileID.Cloud)<2)){
+				if((Main.SceneMetrics.GetTileCount(TileID.Dirt)>20 || 
+				Main.SceneMetrics.GetTileCount(TileID.Stone)>20 ||
+             			Main.SceneMetrics.GetTileCount(TileID.Mud)>20)){
+				
+				
+					return true;
+				
+				
+				}
+			}
+		}
+            
+            	return false;
 
         }
         public override int Music{
