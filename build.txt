@@ -1,3 +1,0 @@
-displayName = Calamity Lost Themes 1.4 Port
-author = pixelated_face, Emissary Of Infinity, DM Dokuro, Turquoise
-version = 0.1
