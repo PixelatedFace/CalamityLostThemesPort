@@ -1,0 +1,32 @@
+Mods: {
+	CalamityLostThemesPort: {
+		Tiles.PlanetoidMusicBox.MapEntry: Music Box
+
+		Items: {
+			PlanetoidBox: {
+				DisplayName: Music Box (Planetoids)
+				Tooltip:
+					'''
+					Blessing of the Moon
+					DM DOKURO
+					'''
+			}
+		}
+
+		Configs: {
+			CalamityLostThemesConfig: {
+				DisplayName: Calamity Lost Themes Config
+
+				planetoidThemeChange: {
+					Label: Enable Planetoid Theme
+					Tooltip: Toggles the planetoids theme (Blessing of the Moon)
+				}
+
+				planetoidPriority: {
+					Label: Planetoid Alt Theme Priority
+					Tooltip: Changes the music priority (Above [Environmental] to override Arsenal Lab theme)
+				}
+			}
+		}
+	}
+}

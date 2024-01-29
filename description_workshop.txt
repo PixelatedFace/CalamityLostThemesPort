@@ -1,0 +1,6 @@
+Ported to 1.4.4 by pixelated_face
+
+Originaly made by Emissary Of Infinity
+Music by DM DOKURO
+
+Currently adds the planetoids theme back
