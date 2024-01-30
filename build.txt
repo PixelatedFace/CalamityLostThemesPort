@@ -1,5 +1,4 @@
 displayName = Calamity Lost Themes 1.4 Port
 author = pixelated_face, Emissary Of Infinity, DM Dokuro
 version = 2.0
-side = Client
 homepage = https://github.com/PixelatedFace/CalamityLostThemesPort
