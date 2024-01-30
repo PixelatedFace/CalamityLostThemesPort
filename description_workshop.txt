@@ -1,4 +1,4 @@
-Ported to 1.4.4 by pixelated_face
+Ported to 1.4.4 by pixelated_face (more of a rewrite)
 
 Originaly made by Emissary Of Infinity
 Music by DM DOKURO
