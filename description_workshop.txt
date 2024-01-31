@@ -2,5 +2,12 @@ Ported to 1.4.4 by pixelated_face (more of a rewrite)
 
 Originaly made by Emissary Of Infinity (I can take this down if you're already working on a port)
 Music by DM DOKURO
+Textures taken from the original mod
 
-Currently adds the planetoids theme back
+Currently adds: 
+
+The Planetoids theme back (Blessing of the Moon)
+(It will override the Arsenal Lab theme if you dont want that you can change the priority in the mod config)
+
+Rest of the music can be found in the Calamity Extra Music Mod (https://steamcommunity.com/sharedfiles/filedetails/?id=2835214226)
+(This Mod adds some of the missing music boxes from Calamity Extra Music)

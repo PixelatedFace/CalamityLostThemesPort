@@ -8,7 +8,7 @@ using Terraria.Localization;
 
 namespace CalamityLostThemesPort.Tiles.MusicBoxes
 {
-	class PlanetoidMusicBox : ModTile
+	class BlizzardNewMusicBox : ModTile
 	{
 		public override void SetStaticDefaults()
 		{
@@ -34,7 +34,7 @@ namespace CalamityLostThemesPort.Tiles.MusicBoxes
 			Player player = Main.LocalPlayer;
 			player.noThrow = 2;
 			player.cursorItemIconEnabled = true;
-			player.cursorItemIconID = ModContent.ItemType<PlanetoidBox>();
+			player.cursorItemIconID = ModContent.ItemType<BlizzardNewBox>();
 			
 		}
 

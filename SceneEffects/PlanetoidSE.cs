@@ -10,7 +10,7 @@ namespace CalamityLostThemesPort.SceneEffects
 	class PlanetoidSE : ModSceneEffect
 	{
 		public override SceneEffectPriority Priority => ModContent.GetInstance<CalamityLostThemesConfig>().planetoidPriority;
-        bool changeTheme = ModContent.GetInstance<CalamityLostThemesConfig>().planetoidThemeChange;
+        readonly bool changeTheme = ModContent.GetInstance<CalamityLostThemesConfig>().planetoidThemeChange;
 
         public override bool IsSceneEffectActive(Player player){
             

@@ -8,7 +8,7 @@ using Terraria.Localization;
 
 namespace CalamityLostThemesPort.Tiles.MusicBoxes
 {
-	class PlanetoidMusicBox : ModTile
+	class MoonLordNewMusicBox : ModTile
 	{
 		public override void SetStaticDefaults()
 		{
@@ -27,14 +27,13 @@ namespace CalamityLostThemesPort.Tiles.MusicBoxes
 		
 		}
 
-		
-
+	
 
 		public override void MouseOver(int i, int j){
 			Player player = Main.LocalPlayer;
 			player.noThrow = 2;
 			player.cursorItemIconEnabled = true;
-			player.cursorItemIconID = ModContent.ItemType<PlanetoidBox>();
+			player.cursorItemIconID = ModContent.ItemType<MoonLordNewBox>();
 			
 		}
 

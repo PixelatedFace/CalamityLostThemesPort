@@ -1,6 +1,13 @@
 Mods: {
 	CalamityLostThemesPort: {
-		Tiles.PlanetoidMusicBox.MapEntry: Music Box
+		Tiles: {
+			PlanetoidMusicBox.MapEntry: Music Box
+			PlanteraNewMusicBox.MapEntry: Plantera New Music Box
+			MoonLordNewMusicBox.MapEntry: Moon Lord New Music Box
+			MeteoriteNewMusicBox.MapEntry: Meteorite New Music Box
+			GolemNewMusicBox.MapEntry: Golem New Music Box
+			BlizzardNewMusicBox.MapEntry: Blizzard New Music Box
+		}
 
 		Items: {
 			PlanetoidBox: {
@@ -9,6 +16,56 @@ Mods: {
 					'''
 					Blessing of the Moon
 					DM DOKURO
+					'''
+			}
+
+			BlizzardNewBox: {
+				DisplayName: Music Box (Blizzard)
+				Tooltip:
+					'''
+					Cold Front
+					ENNWAY
+					(Requires Calamity Extra Music)
+					'''
+			}
+
+			GolemNewBox: {
+				DisplayName: Music Box (Golem Alt)
+				Tooltip:
+					'''
+					Fiery Fists of Stone
+					ENNWAY
+					(Requires Calamity Extra Music)
+					'''
+			}
+
+			MeteoriteNewBox: {
+				DisplayName: Music Box (Meteorite Alt)
+				Tooltip:
+					'''
+					Violence of Space
+					ENNWAY
+					(Requires Calamity Extra Music)
+					'''
+			}
+
+			MoonLordNewBox: {
+				DisplayName: Music Box (Moon Lord Alt)
+				Tooltip:
+					'''
+					omniPOTENCE
+					ENNWAY
+					(Requires Calamity Extra Music)
+					'''
+			}
+
+			PlanteraNewBox: {
+				DisplayName: Music Box (Plantera Alt)
+				Tooltip:
+					'''
+					GARDENMETAL
+					ENNWAY
+					(Requires Calamity Extra Music)
 					'''
 			}
 		}

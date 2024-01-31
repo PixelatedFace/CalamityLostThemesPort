@@ -14,7 +14,7 @@ namespace CalamityLostThemesPort
 
         [DefaultValue(SceneEffectPriority.Event)]
         public SceneEffectPriority planetoidPriority;
-
+        
         
 
     }
