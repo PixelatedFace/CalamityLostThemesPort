@@ -1,4 +1,6 @@
-1.4.4 port for the calamity lost themes mod 
+mo1.4.4 port for the calamity lost themes mod 
+(This only adds the Planetoids theme)
+
 (i am not the original creator of the mod, if you would like this taken down please message me)
 original description :
 
